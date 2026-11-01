@@ -22,7 +22,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir -p dist
-          unzip -q wedding-pages-build-pages-v2.zip -d dist
+          unzip -q wedding-pages-build-pages-v3.zip -d dist
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
